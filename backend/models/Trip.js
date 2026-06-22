@@ -4,11 +4,7 @@ const ActivitySchema = new mongoose.Schema({
   title: { type: String, required: true },
   description: { type: String },
   estimatedCostUSD: { type: Number, default: 0 },
-  timeOfDay: {
-    type: String,
-    enum: ['Morning', 'Late Morning', 'Lunch', 'Afternoon', 'Late Afternoon', 'Evening', 'Night'],
-    default: 'Morning'
-  }
+  timeOfDay: { type: String, default: 'Morning' }
 });
 
 const TripSchema = new mongoose.Schema({
@@ -38,7 +34,6 @@ const TripSchema = new mongoose.Schema({
     activities: { type: Number, default: 0 },
     total: { type: Number, default: 0 }
   },
-  // Creative Feature: Weather-Aware Packing Assistant
   packingList: [{
     item: { type: String, required: true },
     category: { type: String, enum: ['Documents', 'Clothing', 'Gear', 'Other'] },
