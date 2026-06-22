@@ -6,8 +6,8 @@ and the AI returns a day-by-day plan, a cost breakdown, hotel suggestions, and a
 packing checklist. Every itinerary is editable: add or remove activities, or regenerate a single
 day with natural-language feedback (e.g. *"make Day 3 more outdoorsy"*).
 
-> **Live App:** `[ADD DEPLOYED FRONTEND URL HERE]`
-> **API:** `[ADD DEPLOYED BACKEND URL HERE]`
+> **Live App:** https://trao-ai-trip-planner.vercel.app/
+> **API:** https://trao-ai-trip-planner.vercel.app/
 > **Video Walkthrough:** `[ADD VIDEO LINK HERE]`
 
 ---
