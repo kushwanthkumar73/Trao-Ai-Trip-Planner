@@ -8,7 +8,7 @@ day with natural-language feedback (e.g. *"make Day 3 more outdoorsy"*).
 
 > **Live App:** https://trao-ai-trip-planner.vercel.app/
 > **API:** https://trao-ai-trip-planner.vercel.app/
-> **Video Walkthrough:** `[ADD VIDEO LINK HERE]`
+> **Video Walkthrough:** https://www.loom.com/share/1e3c4cca79d3489893515c368b12a5cb
 
 ---
 
